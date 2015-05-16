@@ -1,0 +1,49 @@
+#adminGroup
+{
+	width: 670px;
+	height: 300px;
+	margin: 80px auto;
+}
+
+#adminGroup .adminChild
+{
+	width: 210px;
+	max-width: 210px;
+	height: 140px;
+	margin: 5px;
+	float: left;
+}
+
+#adminGroup .adminChild a
+{
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+	text-decoration: none;
+	border: 4px outset #090;
+	text-align: center;
+	padding: 30px;
+	color: black;
+	margin: 5px;
+	display: inline-block;
+}
+
+#adminGroup .adminChild a:active
+{
+	position: relative;
+	top: 2px;
+	border: 4px inset #090;
+}
+
+#adminGroup .adminChild a#first:hover { background-color: black; }
+#adminGroup .adminChild a#second:hover{ background-color: white; }
+#adminGroup .adminChild a#third:hover { background-color: black; }
+#adminGroup .adminChild a#fourth:hover{ background-color: black; }
+#adminGroup .adminChild a#fifth:hover { background-color: black; }
+#adminGroup .adminChild a#sixth:hover { background-color: black; }
+
+#adminGroup .adminChild a#first  { background-color: blue; color: white;   }
+#adminGroup .adminChild a#second { background-color: yellow; }
+#adminGroup .adminChild a#third  { background-color: green; color: white; }
+#adminGroup .adminChild a#fourth { background-color: green; color: white; padding: 30px 24px; }
+#adminGroup .adminChild a#fifth  { background-color: red; color: white;   }
+#adminGroup .adminChild a#sixth  { background-color: blue; color: white;  }

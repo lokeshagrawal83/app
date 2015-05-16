@@ -1,0 +1,72 @@
+#userProfile
+{
+	width:800px;
+	height: 100%;
+	margin: 10px auto;
+}
+
+#userImg
+{
+	width: 300px;
+	margin: 0px 50px 100px 0px;
+	float: left;
+}
+
+#userImg img 
+{
+	margin: 5px;
+	margin-top: -5px;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	border: 2px solid #808080;
+}
+
+#profileBtn
+{
+	width: 300px;
+	margin: 5px;
+}
+
+#fbBtn
+{
+	position: absolute;
+	padding: 5px;
+	margin-top: -70px;
+	margin-left: 610px;
+}
+
+#updateBtn
+{
+	float: right;
+	margin-right: 200px;
+}
+
+#userDetails
+{
+	margin-top: 100px;
+}
+
+#userDetails td
+{
+	padding: 5px;
+	font-size: 16px;
+}
+
+#userDetails td.label
+{
+	font-weight: bold;
+	width: 150px;
+}
+
+#userDetails td.label2
+{
+	font-weight: bold;
+	width: 300px;
+}
+
+#userDetails td.data
+{
+	text-align: left;
+	width: 300px;
+}

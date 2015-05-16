@@ -1,0 +1,19 @@
+#groupWrapper
+{
+	margin: 50px auto;
+	width: 400px;
+	min-height: 290px;
+}
+
+#groupWrapper h1
+{
+	margin: 10px 0px ;
+	text-decoration: underline;
+}
+
+#userarea 
+{
+	margin: 10px 50px;
+	height: 100px;
+	width: 300px;
+}

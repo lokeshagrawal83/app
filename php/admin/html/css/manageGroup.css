@@ -1,0 +1,93 @@
+#groupWrapper
+{
+	margin: 50px auto;
+	width: 520px;
+	min-height: 290px;
+	border: 1px solid #000;
+}
+
+#groupWrapper h1
+{
+	margin: 10px 0px 5px 10px;
+	padding: 5px;
+	text-decoration: underline;
+}
+
+#settings
+{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 20px;
+}
+
+#group
+{
+	width: 400px;
+	margin: 5px 0px 5px 10px;
+}
+
+#group label
+{
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+
+#users
+{
+	width: 300px;
+	min-height: 100px;
+	margin: 10px 0px 10px 10px;
+	padding: 10px;
+	border: 2px inset #000;
+	border-radius: 5px;
+}
+
+#users .userrow
+{
+
+}
+
+#users .userrow label
+{
+	font-weight: normal;
+	text-align: left;
+	margin-left: 10px;
+	width: 200px;
+}
+
+#users .userrow input
+{
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+	display: inline-block;
+	border: none;
+	text-align: left;
+	margin-left: 10px;
+	width: 200px;
+}
+
+#actions
+{
+	margin: 10px 10px 10px 10px;
+	float: right;
+}
+
+#tableDisplay
+{
+	width: 500px;
+	margin: 50px auto;
+}
+
+#tableDispaly table
+{
+
+}
+
+#tableDispaly table th
+{
+
+}

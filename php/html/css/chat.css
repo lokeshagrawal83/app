@@ -1,0 +1,185 @@
+p, h1
+{
+	margin:0;
+	padding: 0;
+	display: inline;
+}
+
+#header img.home
+{
+	height: 50px;
+}
+
+#homeBody
+{
+	margin: 0px -50px;
+}
+
+#team
+{
+	width: 550px;
+	height:80%;
+	float: right;
+	margin:5px;
+	margin-right: 0px;
+}
+
+#teamh1
+{
+	text-align: center;
+	font-size: 10px;
+}
+
+#teamDetails
+{
+	margin-top: 20px;
+}
+
+#team .member
+{
+	margin: 5px 0px;
+	padding: 0px;
+	float: left;
+	height: 100px;
+	width: 500px;
+}
+
+#team .member img 
+{
+	width: 80px;
+	height: 80px;
+	margin: 5px 20px;
+	float:left;
+	border-radius: 10px;
+	border: 2px solid #808080;
+}
+
+#team .member #profile
+{
+	margin-top: 10px;
+}
+
+#team .member #profile .profileName
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#team .member #profile table 
+{
+	margin: 0px;
+	padding: 0px;
+	width: 375px;
+}
+
+#team .member #profile table tr
+{
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#team .member #profile table tr td.title
+{
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px 5px;
+	width: 130px;
+}
+
+#chat
+{
+
+}
+
+#chat.noidentity
+{
+	margin-left: 200px;
+}
+
+#chath1
+{
+	margin: 10px;
+	padding: 10px;
+	font-size: 10px;
+	text-align: center;
+}
+
+#chat #area
+{
+	width: 490px;
+	height: 100%;
+	min-height: 350px;
+	max-height: 350px;
+	overflow: hidden;
+	padding: 5px;
+	margin: 5px auto;
+	margin-left: 100px;
+	border: 5px solid #808080;
+	border-top: 10px solid #808080;
+	border-bottom: 10px solid #808080;
+	word-wrap: break-word;
+	overflow-y: auto;
+}
+
+#chat #area.admin
+{
+	min-height: 400px;
+	max-height: 500px;
+}
+
+#chat #msg
+{
+	width: 500px;
+	height: 135px;
+	float: left;
+	margin: 5px auto;
+	margin-left: 100px;
+	margin-top: 0px;
+	border: 5px solid #808080;
+}
+
+#chat #msg textarea
+{
+	width: 495px;
+	height: 130px;
+}
+
+#chat #send
+{
+	width: 100px;
+	height: 60px;
+	margin: 5px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border-radius: 10px;
+	border: 1px solid #000;
+}
+
+.uName
+{
+	color: #00F;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.msg
+{
+	color: #390;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.system
+{
+	font-weight: bold;
+}
+
+.logtime
+{
+	color:#999;
+	font-size: 12px;
+	display: inline;
+	float: right;
+}

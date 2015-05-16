@@ -1,0 +1,193 @@
+/*
+body
+{
+	background: #F1F0D1;
+	font-family: Verdan, tahoma, arial, sans-serif;
+}
+*/
+#wrapper
+{	
+	margin: 0 auto;
+	width: 1100px;
+}
+
+#header
+{
+	margin-top: 10px;
+}
+
+#divLine
+{
+	width: auto;
+	background-color: black;
+	height: 1px;
+}
+
+#userinfo
+{
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+	text-align: right;
+}
+
+#links
+{
+	
+}
+
+#links ul
+{
+	list-style-type: none;
+}
+
+#links ul li
+{
+	float: left;
+}
+
+#links ul li a 
+{
+	display: block;
+	margin: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #DFDFEB;
+	border-radius: 5px;
+	border: 1px solid;
+	background:-webkit-linear-gradient(#DFDFEB, #EFEFF5);
+	background:-moz-linear-gradient(top,#DFDFEB, #EFEFF5);
+}
+
+#links ul li a:hover
+{
+	background: #FFF;
+	background:-webkit-linear-gradient(#FFF, #EFEFF5);
+	background:-moz-linear-gradient(top,#FFF, #EFEFF5);
+}
+
+#pageBody
+{
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+/*	Changes float login to right, not body image.  */
+
+#bodyImg
+{
+	float: left;
+	margin-top: -40px;
+	margin-bottom: 60px;
+}
+
+#bodyImg img
+{
+	width: 250px;
+	height: 250px;
+}
+
+#bodyImg img.profile
+{
+	width: 100px;
+	height: 100px;
+}
+
+#login
+{
+	width: auto;
+	float: right;
+	margin-right: 100px;
+	background:#DFDFEB;
+	background:-webkit-linear-gradient(#DFDFEB, #EFEFF5);
+	background:-moz-linear-gradient(top,#DFDFEB, #EFEFF5);
+	border:1px solid #EFEFF5;
+	border-radius:20px;
+	box-shadow:2px 2px 5px #999;
+	padding: 5px;
+}
+
+table
+{
+	margin: 10px;
+}
+
+table tr 
+{
+	text-align: right;
+}
+
+#footer
+{
+/*	position: absolute; */
+	bottom: 20px;
+	clear: both;
+	color: #DFDFEB;
+	background: #0B0B61;
+	border: 1px solid #000;
+	border-radius: 20px;
+	height: 50px;
+	width: 1130px;
+}
+
+#footer p
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+#footer p a:link
+{
+	color: #DFDFEB;
+}
+
+input[value="Login"]
+{
+	width: 48%;
+	height: 23px;
+}
+
+input[name="signup"]
+{
+	background-color: #69a74e;
+	font-size: 13px;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	border: none;
+	color: white;
+	font-weight: bold;
+	width: 48%;
+	height: 23px;
+}
+
+input[value="fbLogin"]
+{
+	margin-right: -3px;
+	margin-bottom: -3px;
+}
+
+input[value="uaLogin"]
+{
+	margin-top: -3px;
+	margin-right: -3px;
+}
+
+.error
+{
+	width: auto;
+}
+
+.error ul li
+{
+	color: red;
+}
+
+.success
+{
+	width: auto;
+}
+
+.success ul li
+{
+	color: #00FF00;
+}
